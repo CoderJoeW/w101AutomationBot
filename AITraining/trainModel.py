@@ -11,7 +11,7 @@ train_dir = 'set1'
 # Model parameters
 img_width, img_height = 256, 256  # Must match the preprocessing size
 batch_size = 32
-epochs = 10
+epochs = 40
 num_classes = 4  # Adjust based on the number of directions including "arrived"
 
 # Data preparation
@@ -62,4 +62,4 @@ model.fit(
 
 # Save the trained model
 model.save('wizard101_navigation_model.keras')
-print("Model training completed and saved as 'wizard101_navigation_model.h5'")
+print("Model training completed and saved as 'wizard101_navigation_model.keras'")
