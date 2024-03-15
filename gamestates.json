@@ -1,0 +1,10 @@
+{
+    "states": [
+      {
+        "name": "spellbook",
+        "template_image": "images/spellbook.png",
+        "threshold": 0.8
+      }
+    ]
+  }
+  
