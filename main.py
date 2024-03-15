@@ -18,6 +18,14 @@ def is_in_battle():
     game_state.update_state(screen)
     return not getattr(game_state, 'spellbook', False)
 
+def is_our_turn():
+    # We are assuming if we can see the pass button
+    # It is our turn to pick a card or pass
+    game_state = GameState.GameState()
+    screen = capture_screen()
+    game_state.update_state(screen)
+    return not getattr(game_state, 'pass', False)
+
 def main():
     game_state = GameState.GameState()
 
