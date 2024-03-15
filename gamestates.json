@@ -4,6 +4,11 @@
         "name": "spellbook",
         "template_image": "images/spellbook.png",
         "threshold": 0.8
+      },
+      {
+        "name": "pass",
+        "template_image": "images/pass.png",
+        "threshold": 0.8
       }
     ]
   }
